@@ -9,7 +9,7 @@ class ComposerStaticInit583a64173bf9f3ed2aaf359c5e0b8588
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
-            'sjsu_students\\hw4\\' => 18,
+            'coolTeam\\hw4\\' => 18,
         ),
         'P' => 
         array (
@@ -22,7 +22,7 @@ class ComposerStaticInit583a64173bf9f3ed2aaf359c5e0b8588
     );
 
     public static $prefixDirsPsr4 = array (
-        'sjsu_students\\hw4\\' => 
+        'coolTeam\\hw4\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
