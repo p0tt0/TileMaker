@@ -1,0 +1,24 @@
+Assigned to team members:
+
+Aung Lin:
+1) views
+  Description:
+  - display the page where user can load new image.
+  - view.php contain code to the landing page
+
+2) models
+  Description:
+    - Contains code to read and write data from the file system.
+    - use to update the indexes after users swap.
+    - use to create new random indexes after users win the game.
+
+
+Hanh Nguyen
+
+1) controller
+
+2) resources
+  Description:
+    - contain the images file   
+    - test.txt contain current indexes
+    
