@@ -11,7 +11,6 @@ class Layout {
     <html lang="en" dir="ltr">
     <head>
       <meta charset="utf-8">
-      <link rel="stylesheet" href="src/styles/style.css">
       <title>Tile Maker</title>
     </head>
     <body>

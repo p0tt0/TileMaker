@@ -8,6 +8,13 @@ class View {
     }
     ?>
     <form name="myForm" id="myForm" action="index.php" method="post" enctype="multipart/form-data">
+      <div class="control">
+      	<p> Coords: [1,1] [GO] </p>
+      	<p> Zoom: [In | Out] </p>
+      	<p> ^ </p>
+      	<p> < > </p>
+      	<p> V </p>
+      </div>
       <div class="uploadImg">
         <label for="img">New Image: </label>
         <input class="fileSelector" type="file" accept="image/jpg" name="img" id="img" onchange="loadImg(event)" >
@@ -249,7 +256,7 @@ class View {
         
         jigsaw[i].drawImage(image, columnTile * 120, rowTile * 120, 120, 120, 0, 0, 120 ,120);
       }
-      console.log("onload");
+      console.log("loading");
     };
     </script>
     <?php
